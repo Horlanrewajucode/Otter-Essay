@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #202020;
+}
+#mysection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 100px 0;
+}
+.heading{
+    background-color: FF0095;
+    padding: 25px 55px;
+    border-radius: 10px;
+    font-size: 25px;
+    font-weight: 800;
+    position: relative;
+    top: 60px;
+}
+.main{
+    background-color: white;
+    max-width: 30%;
+    padding: 130px 30px 60px;
+    border-radius: 10px;
+    font-size: 22px;
+}
