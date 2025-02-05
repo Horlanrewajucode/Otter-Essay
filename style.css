@@ -24,8 +24,17 @@ body{
 }
 .main{
     background-color: white;
-    max-width: 30%;
+    max-width: 28rem;
     padding: 130px 30px 60px;
     border-radius: 10px;
     font-size: 22px;
+}
+
+/* mobile devices screen size */
+
+@media screen and (min-width:320px){
+    .main{
+        margin: 0 0.8rem;
+    }
+
 }
